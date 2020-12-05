@@ -1,0 +1,56 @@
+.container {
+    background-color: lightgrey;
+    opacity: 0.75;
+}
+h1 {
+    margin-bottom: 25px;
+    font-size: 5em;
+    text-align: center;
+    color: darkblue;
+}
+.letter {
+    height: 75px;
+    width: 75px;
+    font-size: 3em;
+    padding: 5px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+}
+#secretWord {
+    font-size: 4em;
+    text-align: center;
+}
+#gameOver {
+    display: none;
+    font-size: 4em;
+    text-align: center;
+    margin: 25px;
+}
+#guesses{
+    display: none;
+    font-size: 2.5em;
+}
+body {
+    background-image: url("img/Astronaut_animated_2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: lightblue;
+}
+#howToPlay {
+    display: none;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 25px;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    background-color: #F5F5F5;
+    text-align: center;
+}
+#rulesButton {
+    text-align: center;
+}

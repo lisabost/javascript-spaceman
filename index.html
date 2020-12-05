@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spaceman</title>
+    <!--Bootstrap Styles Go Here-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--My Styles Go Here-->
+    <link rel="stylesheet" href="hangman.css">
+    <link rel="icon" href="favicon.png" type="image/gif" sizes="32x32">
+</head>
+<body>
+<div class="container">
+    <h1>Spaceman</h1>
+    <div id="rulesButton">
+    <button class="btn btn-info" id="showRules">How To Play</button>
+    </div>
+    <div id="howToPlay">
+        <p>Astronaut Maggie is stuck outside her Spaceship!</p>
+        <p>She must correctly guess the letters in the secret word without making 6 incorrect guesses
+        in order to make it back into her spaceship.</p>
+    </div>
+    <div id="secretWord"></div>
+    <div id="gameOver"></div>
+    <div id="hangman">
+        <form>
+            <input type="button" id="a" class="letter" name="A" value="A">
+            <input type="button" id="b" class="letter" name="B" value="B">
+            <input type="button" id="c" class="letter" name="C" value="C">
+            <input type="button" id="d" class="letter" name="D" value="D">
+            <input type="button" id="e" class="letter" name="E" value="E">
+            <input type="button" id="f" class="letter" name="F" value="F">
+            <input type="button" id="g" class="letter" name="G" value="G">
+            <input type="button" id="h" class="letter" name="H" value="H">
+            <input type="button" id="i" class="letter" name="I" value="I">
+            <input type="button" id="j" class="letter" name="J" value="J">
+            <input type="button" id="k" class="letter" name="K" value="K">
+            <input type="button" id="l" class="letter" name="L" value="L">
+            <input type="button" id="m" class="letter" name="M" value="M">
+            <br>
+            <input type="button" id="n" class="letter" name="N" value="N">
+            <input type="button" id="o" class="letter" name="O" value="O">
+            <input type="button" id="p" class="letter" name="P" value="P">
+            <input type="button" id="q" class="letter" name="Q" value="Q">
+            <input type="button" id="r" class="letter" name="R" value="R">
+            <input type="button" id="s" class="letter" name="S" value="S">
+            <input type="button" id="t" class="letter" name="T" value="T">
+            <input type="button" id="u" class="letter" name="U" value="U">
+            <input type="button" id="v" class="letter" name="V" value="V">
+            <input type="button" id="w" class="letter" name="W" value="W">
+            <input type="button" id="x" class="letter" name="X" value="X">
+            <input type="button" id="y" class="letter" name="Y" value="Y">
+            <input type="button" id="z" class="letter" name="Z" value="Z">
+        </form>
+    </div>
+    <div id="guesses">
+        <p>Wrong Guesses: <br/></p>
+        <p id="wrongGuesses"></p>
+    </div>
+</div>
+</body>
+<footer class="footer">
+    Spaceman Project created by: Lisa Bost, 2020
+</footer>
+
+<!--JQuery Goes Here-->
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<!--JQuery Validation Goes Here-->
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.js"></script>
+<!--Popper and Bootstrap JavaScript-->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!--My JavaScript Goes Here-->
+<script src="hangman.js"></script>
+
+</html>
